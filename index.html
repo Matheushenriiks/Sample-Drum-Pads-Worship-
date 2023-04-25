@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Sample Pads Worship</title>
+
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@200&family=Varela+Round&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Arvo&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <h1 class="titulo-principal">SAMPLE PADS WORSHIP - DRUMS</h1>
+
+    <div class="botao-pads">
+      <!--Button 1-->
+
+      <div>
+        <button type="button" id="clap" onclick="botao('clap')" class="botao">
+          PALM REVERB <br />
+          PRESS "H"
+        </button>
+        <div>
+          <i class="material-icons">volume_up</i>
+          <input id="slider" type="range" min="0" max="10" value="10" />
+        </div>
+      </div>
+      <!--Button 2-->
+      <div>
+        <button type="button" id="kick" onclick="botao('kick')" class="botao">
+          KICK CONTROL<br />
+          PRESS"J"
+        </button>
+        <div>
+          <i class="material-icons">volume_up</i>
+          <input id="slider" type="range" min="0" max="10" value="10" />
+        </div>
+      </div>
+      <!--Button 3-->
+      <div>
+        <button type="button" id="ping" onclick="botao('ping')" class="botao">
+          PING REVERB<br />
+          PRESS"K"
+        </button>
+        <div>
+          <i class="material-icons">volume_up</i>
+          <input id="slider" type="range" min="0" max="10" value="10" />
+        </div>
+      </div>
+      <!--Button 4-->
+      <div>
+        <button
+          type="button"
+          id="reverse"
+          onclick="botao('reverse')"
+          class="botao"
+        >
+          REVERSE CONTROL<br />
+          PRESS "L"
+        </button>
+        <div>
+          <i class="material-icons">volume_up</i>
+          <input id="slider" type="range" min="0" max="10" value="10" />
+        </div>
+      </div>
+      <!--Button 5-->
+      <div>
+        <button
+          type="button"
+          id="reverse-kick"
+          onclick="botao('reverse-kick')"
+          class="botao"
+        >
+          REVERSE BUMBO<br />
+          PRESS "P"
+        </button>
+        <div>
+          <i class="material-icons">volume_up</i>
+          <input id="slider" type="range" min="0" max="10" value="10" />
+        </div>
+      </div>
+    </div>
+    <!--Copyright-->
+    <div class="sobre">
+      <copyright> © Sample Pads Worship </copyright>
+    </div>
+  </body>
+
+  <script src="./script.js"></script>
+</html>

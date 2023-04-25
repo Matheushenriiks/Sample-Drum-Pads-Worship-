@@ -1,0 +1,80 @@
+@import 'https://cdnjs.cloudflare.com/ajax/libs/material-design-icons/3.0.1/iconfont/material-icons.min.css';
+@import 'https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css';
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-image: url(https://thumbs.dreamstime.com/b/fundo-preto-da-parede-de-tijolo-119596329.jpg);
+}
+
+.titulo-principal {
+  text-align: center;
+  padding: 20px 20px 20px 20px;
+  font-family: 'Bebas Neue', cursive;
+  font-size: 55px;
+  color: aliceblue;
+  transition: 1s;
+}
+
+.botao {
+  width: 13em;
+  height: 18em;
+  margin: 10px 5px auto;
+  justify-content: center;
+  border-radius: 10px;
+  border-color: white;
+  background: rgb(63, 63, 63);
+  text-transform: uppercase;
+  font-family: 'Arvo', serif;
+  font-weight: bold;
+  color: beige;
+  font-size: 20px;
+  transform: 1s;
+}
+
+.botao:hover {
+  color: rgb(255, 255, 255);
+  background: rgba(3, 3, 3, 0.705);
+}
+
+.botao-pads {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.sobre {
+  font-family: 'Varela Round', sans-serif;
+  text-align: center;
+  color: aliceblue;
+  padding: 40px 40px 40px 40px;
+}
+
+.link {
+  color: aliceblue;
+  font-family: 'Varela Round', sans-serif;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+p {
+  font-family: 'Arvo', serif;
+  color: aliceblue;
+  font-size: 16px;
+  margin-top: 30px;
+}
+
+.mudacor {
+  background-color: red;
+}
+
+.material-icons {
+  color: white;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+input[type='range']::-webkit-slider-thumb {
+  background-color: white;
+}
